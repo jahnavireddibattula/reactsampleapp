@@ -1,0 +1,86 @@
+.form_design{
+           border: 1px solid blue;
+           justify-items:center;
+           width: 150%; 
+           align-items: center; 
+           margin: auto;  
+           
+  
+}
+.form{
+    /* border: 2px solid blue; */
+    display: table-cell;
+    display:flexbox;
+    /* width: 200%; */
+    justify-content: space-around;
+    text-align:start;
+    vertical-align: middle;
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+.main_heading{
+    justify-content: center;
+    align-content: center;
+}
+
+.button_data{
+    justify-content:center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    border: 2px solid green;
+    background-color: green;
+}
+
+.headingdata{
+    display: flex;
+    justify-content: center;
+}
+
+Html{
+    height:100%;
+    
+   
+}
+
+body{
+    height:100%;
+    /* background-image: url('/public/Login_page_Background_Image.jpg');
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: cover; */
+    /* height: 100vh;  */
+}
+
+.ParentContaniner{
+    /* display:table; height:100%; margin: 0 auto; */
+    
+    background-image: url('/public/Login_Page.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+     background-size: cover;
+    height: 100vh;  
+    
+
+  
+    
+}
+
+.childContainer{
+    display:table-cell; vertical-align:middle;
+}
+
+/* .form-control{
+    border: 2px solid red;
+}
+
+form {
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+} */

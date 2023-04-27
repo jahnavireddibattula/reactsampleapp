@@ -1,0 +1,41 @@
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    color: crimson;
+    /* padding: 10px; */
+}
+
+nav
+{
+overflow: auto;
+}
+
+.linkcolor1{
+    /* overflow: auto;
+    /* margin: 0; */
+    /* position: absolute; */
+    height: 60px; 
+    background-color:aliceblue;
+
+}
+
+/* .linkcolor li{
+    height: auto;
+    width: 150px;
+    float: left;
+    text-align: center;
+    list-style:bold;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 22px;
+    margin: 0;
+    background: #366b82;
+    color:red;
+    text-decoration:none;
+    display: block;
+} */
